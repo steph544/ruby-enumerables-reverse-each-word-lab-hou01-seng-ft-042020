@@ -5,13 +5,11 @@ def reverse_each_word(string)
  reversed_string = []
  
  string.each do |char|
-  reversed_string.push(char.reverse)
+  reversed_string.push(char)
  end
  
  return reversed_string.join
 end
-
-make_sandwich("Creamy peanut butter", "glittering sense of accomplishment") { |b| "#{b.reverse} on #{"bread".reverse}" }
 
 
  expected: "olleH ,ereht dna woh era ?uoy"
