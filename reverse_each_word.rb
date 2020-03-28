@@ -11,7 +11,7 @@ def reverse_each_word(string)
  return reversed_string.join
 end
 
-
+make_sandwich("Creamy peanut butter", "glittering sense of accomplishment") { |b| "#{b.reverse} on #{"bread".reverse}" }
 
 
  expected: "olleH ,ereht dna woh era ?uoy"
