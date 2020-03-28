@@ -12,5 +12,7 @@ def reverse_each_word(string)
 end
 
 
+
+
  expected: "olleH ,ereht dna woh era ?uoy"
             got: "Hello there, and how are you?"
