@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 def reverse_each_word(string)
- string = string.split('')
+ string = string.split()
  reversed_string = []
  
  string.each do |char|
